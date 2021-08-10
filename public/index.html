@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Villatoro.dev</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-blue-800">
+    <!-- NAVBAR -->
+    <div class="contain">
+        <nav class="flex justify-between lg:justify-start items-center">
+            <div class="logo flex-initial p-6 w-1/6">
+                <img class="w-20" src="./img/logo_1.png" alt="Logo Carlos Villatoro">
+            </div>
+            <div class="links lg:block hidden w-1/6 md:w-4/6">
+                <ul class="flex items-center justify-center space-x-12 font-bold text-white text-2xl">
+                    <li><a class="links" href="#">Inicio</a></li>
+                    <li><a class="links" href="#">Sobre mí</a></li>
+                    <li><a class="links" href="#">servicios</a></li>
+                    <li><a class="links" href="#">portafolio</a></li>
+                    <li><a class="links" href="#">contáctame</a></li>
+                </ul>
+            </div>
+            <!-- Menú hambirguesa -->
+            <div class="block lg:hidden w-1/6 lg:w-4/6">
+                <a href="#" class="links" id="mobile-menu"><i class="fas fa-bars text-white links text-xl"></i></a>
+                <ul class="mobile-links transition duration-500 ease-in-out space-y-6 hidden w-full absolute z-50 left-0 text-center">
+                    <li><a class="links" href="#">Inicio</a></li>
+                    <li><a class="links"href="#">Sobre mí</a></li>
+                    <li><a class="links" href="#">servicios</a></li>
+                    <li><a class="links" href="#">portafolio</a></li>
+                    <li><a class="links" href="#">contáctame</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <script src="./main.js"></script>
+    <!-- /NAVBAR -->
+</body>
+</html>

@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.contain{
+    @apply container mx-auto
+}
+
+.links{
+    @apply font-bold text-white text-2xl hover:text-yellow-500 duration-100
+}
